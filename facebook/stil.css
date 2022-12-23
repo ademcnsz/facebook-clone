@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcyan;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.one{
+    height: 100vh;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 1.8rem;
+    position: relative;
+}
+
+
+.title{
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    color:#3b5998;
+}
+.yazi{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    /* border: 1px solid black; */
+    width: 60%;
+}
+.two{
+    /* background-color: aqua; */
+    font-size: 1.8rem;
+}
+
+.kutu{
+    /* border: 1px solid black; */
+    width: 70%;
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: .2em;
+}
+
+
+.input{
+    /* font-weight: bold; */
+    width: 90%;
+    padding: 1em;
+    border-radius: .5em;
+    margin:.5em;
+    outline: none;
+    border: 1px solid lightgray;;
+    height: 3rem;
+}
+
+.gonder{
+    font-weight: bold;
+    width: 90%;
+    padding: 1em;
+    border-radius: .5em;
+    margin: .5em;
+    border: none;
+    background-color: #3b5998;
+    color: white;
+    font-size: .5em;
+}
+
+.sifre-reset{
+    margin: .5em;
+    font-size: .6em;
+    text-decoration: none;
+    color:#3b5998;
+}
+
+.cizgi{
+    height: 1px;
+    width: 80%;
+    background-color:darkgrey;
+    margin: .5em;
+}
+
+.yeni-hesap{
+    width: 40%;
+    padding: 1em;
+    border-radius: .5em;
+    margin: .5em;
+    border: none;
+    background-color: rgb(61, 207, 32);
+    color: white;
+    font-size: .5em;
+    font-weight: bold;
+
+}
+
+.altyazi{
+    position: relative;
+    top: 190px; 
+    font-size: .5em;
+    left: 50px;
+    font-family: 'Klavika';
+}
